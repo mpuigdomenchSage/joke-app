@@ -32,11 +32,16 @@
   background: #fff;
   border: 1px solid red;
   float: left;
-  line-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
   height: 150px;
   text-align: center;
   width: 150px;
   cursor: pointer;
+  overflow-wrap: break-word;
+  word-break: break-all;
 }
 
 .notChecked{
