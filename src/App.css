@@ -28,6 +28,35 @@
   color: #61dafb;
 }
 
+.cell {
+  background: #fff;
+  border: 1px solid red;
+  float: left;
+  line-height: 150px;
+  height: 150px;
+  text-align: center;
+  width: 150px;
+  cursor: pointer;
+}
+
+.notChecked{
+  border: 1px solid red;
+}
+
+.checked{
+  border:1px solid green;
+  background: green;
+}
+
+.hidden {
+  background: #7e7b92;
+}
+
+.clear {
+  clear: both;
+  content: ""
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
