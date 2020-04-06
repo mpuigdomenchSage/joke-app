@@ -41,7 +41,7 @@
   width: 150px;
   cursor: pointer;
   overflow-wrap: break-word;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .notChecked{
